@@ -1,0 +1,257 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conntainer">
+     <div class="col-4">
+    <img src="https://m.media-amazon.com/images/I/81NAU7ucTPL._SX425_.jpg" alt="" width="25%">
+    <img src="https://m.media-amazon.com/images/I/61wHozl3B7L._SY879_.jpg" alt="" width="10%">
+</div>
+</div>
+</body>
+</html> -->
+
+
+ <style>
+    .filterDiv {
+      float: left;
+      background-color: #fcfdfd;
+      color: #ffffff;
+      width: 100px;
+      line-height: 100px;
+      text-align: center;
+      margin: 2px;
+      display: none;
+    }
+    
+    .show {
+    display: inline;
+    }
+    
+    .container {
+      margin-top: 30px;
+      overflow: hidden;
+      width: 100%;
+      height: 80%;
+    
+
+
+    }
+    
+
+
+
+
+
+
+    .section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #054bec;
+  margin: 4px 10px;
+}
+    
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      background-color: #d89feb;
+      cursor: pointer;
+    }
+    
+    
+    .btn:hover {
+      background-color: #ddd;
+    }
+    
+    .btn.active {
+      background-color: #ce6a6a;
+      color: rgb(190, 227, 231);
+    }
+    </style>
+    <body>
+        <div class="section-title">
+        <h2>GALLERY</h2>
+    </div>
+    
+    <h2>ALVAS Achievements year-2000</h2>
+
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('School')"> Alvas School</button>
+      <button class="btn" onclick="filterSelection('pu')">Alvas PU</button>
+      <button class="btn" onclick="filterSelection('Degree')"> Alvas Degree</button>
+      <button class="btn" onclick="filterSelection('Engineering')"> Alvas Engineering</button>
+      <button class="btn" onclick="filterSelection('homeopathy')"> Alvas Homeopathy</button>
+      <button class="btn" onclick="filterSelection('Netropathy')"> Alvas Netropathy</button>
+      <button class="btn" onclick="filterSelection('MBA')"> Alvas MBA</button>
+    </div>
+    
+    <div class="container">
+      <div class="filterDiv School" ><img  src="https://cpimg.tistatic.com/06324878/b/4/Brass-Trophy.jpg" alt="" width="100% "height="40%"  hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv  Degree"><img src="https://m.media-amazon.com/images/I/71Y4MYl5nsL._SL1500_.jpg" alt="" width="100%" height="40%"  hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv School"><img src="https://rukminim1.flixcart.com/image/416/416/j2jbl3k0/trophy-medal/h/4/s/best-student-trophy-award-gift-by-aark-india-pc-00240-by-aark-original-imaetveezwfhqpby.jpeg?q=70" alt="" width="100%" height="40%"hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv Engineering "><img src="https://m.media-amazon.com/images/I/71PGL9kPx6S._SY450_.jpg" alt="" width="100%" height="40%"hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv pu"><img src="https://m.media-amazon.com/images/I/81u3zxnWjLL._SY606_.jpg" alt="" width="100%" height="40%"hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv colors"><img src="https://cdn.shopify.com/s/files/1/0010/9065/0173/products/trophysmack-15-perpetual-fantasy-football-trophy-gold-cup-28340508327997.jpg?v=1630625453" alt="" width="100% " height="40%" hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv  pu"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnMloI2AWt2Afd48B2pVsL2XwyC-jG6peOFIeqAjofa3t1PQ4dG4UOQXjWquGOIO2G--o&usqp=CAU" alt=""width="100%" height="40%"hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv pu"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwJarUl-hOJ3ZXZkwyVD9RI2IlUwI4iy1Yyg&usqp=CAU" alt=""width="100%" height="40%"hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv   Degree"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8L4-y8MeoUMNrljoO8GqeTBnAyJt59MyHig&usqp=CAU" alt=""width="100%" height="40%"hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv  Engineering"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQItmsUQJ_xN3l8rueYRKbXrVhpsybQMsCfkw&usqp=CAU" alt=""width="100%" height="40%"hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv School"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRG3-_ooLhHAbt-KdKyzDA4HG0g9ZNO3PNXg&usqp=CAU" alt=""width="100%" height="40%"hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv Degree"><img src="https://www.trophyme.co.uk/uploads/products/0wlnj1jndDXVVLVgpbL7bnuC92jg6dhy.jpg" alt="" width="100%" height="40%"hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv  homeopathy"><img src="https://www.printstop.co.in/images/products_gallery_images/Batsman-cross-trophy.jpg" alt="" width="100%" height="40%"hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv  homeopathy"><img src="https://content.jdmagicbox.com/comp/ahmedabad/l3/079pxx79.xx79.161205090406.v5l3/catalogue/trophykart-in-ahmedabad-gpo-ahmedabad-trophy-dealers-3j1zey1.jpg" alt="" width="100%" height="40%"hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv  homeopathy"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFTOUAl3afDuPEdjIhZ391BBLC5YNMc-oGPQ&usqp=CAU" alt="" width="100%" height="40%"hspace=10 vspace=10 WIDTH="96" HEIGHT="134" BORDER="0"></div>
+      <div class="filterDiv    Netropathy" > <img src="" alt=""></div>
+      <div class="filterDiv    Netropathy" > <img src="" alt=""></div>
+      <div class="filterDiv    MBA" > <img src="" alt=""></div>
+      <div class="filterDiv    MBA" > <img src="" alt=""></div>
+    
+
+    </div>
+    
+    <script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("filterDiv");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+    
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+    
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+    
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+    </script>
+    
+     <!-- <!DOCTYPE html>
+     <html>
+     <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <style>
+     .container {
+       position: relative;
+       width: 40%;
+     }
+     
+     .image {
+       display: block;
+       width:40%;
+       height: auto;
+     }
+     
+     .overlay {
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       background-color: #008CBA;
+       overflow: hidden;
+       width: 40%;
+       height: 100%;
+       -webkit-transform: scale(0);
+       -ms-transform: scale(0);
+       transform: scale(0);
+       -webkit-transition: .3s ease;
+       transition: .3s ease;
+     }
+     
+     .container:hover .overlay {
+       -webkit-transform: scale(1);
+       -ms-transform: scale(1);
+       transform: scale(1);
+     }
+     
+     .text {
+       color: white;
+       font-size: 20px;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       -webkit-transform: translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+       text-align: center;
+     }
+     </style>
+     </head>
+     <body>
+     
+     <h2>Image Hover Fullscreen Zoom</h2>
+     <p>Hover over the image to see the zoom effect.</p>
+     
+     <div class="container">
+       <img src="https://cpimg.tistatic.com/06324878/b/4/Brass-Trophy.jpg" alt="Avatar" class="image">
+       <div class="overlay">
+         <div class="text">Hello World</div>
+       </div>
+     </div>
+     <div class="container">
+      <img src="https://m.media-amazon.com/images/I/71Y4MYl5nsL._SL1500_.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Hello World</div>
+      </div>
+    </div>
+     
+     </body>
+     </html>
+      -->
+
+
+
